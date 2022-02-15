@@ -1,0 +1,38 @@
+
+.product {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50px 1fr 100px 50px;
+    padding: 1rem 0rem;
+}
+
+
+.basketImg {
+    width: 40px;
+}
+
+.basketImg img {
+    width: 100%;
+}
+
+.name {
+    color: #ffffff;
+    margin-left: 3rem;
+}
+
+.price {
+    color: #fff8e1;
+    font-size: 1.6rem;
+}
+
+.deleteProduct {
+    background-color: transparent;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.deleteProduct:hover {
+    color: #bd0106;
+}

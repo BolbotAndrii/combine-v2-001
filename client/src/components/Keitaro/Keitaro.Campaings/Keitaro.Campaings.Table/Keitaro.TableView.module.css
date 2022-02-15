@@ -1,0 +1,22 @@
+.tableContainer {
+    width: 100%;
+}
+
+.tableHeader {
+    display: grid;
+    grid-template-columns: 100px repeat(auto-fit, minmax(100px, 1fr));
+    color: white;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #1e88e563;
+    margin-top: 2rem;
+    padding: .4rem .4rem 1rem .4rem;
+}
+
+
+.tableRow {
+    padding: .4rem;
+    display: grid;
+    grid-template-columns: 100px repeat(auto-fit, minmax(100px, 1fr));
+    color: white;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.12);
+}

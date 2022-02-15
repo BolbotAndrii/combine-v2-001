@@ -1,0 +1,92 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-top: 2rem;
+    grid-gap: 2rem;
+}
+
+
+.element {
+    background-color: #171717;
+    min-height: 150px;
+}
+
+.elementHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: black
+}
+
+.elementBody {
+    padding: 2rem 1rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.count span:first-child {
+    font-size: 1.4rem;
+    margin-right: .4rem;
+}
+
+.elementControl {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.btnUpdate,
+.btnTransfer,
+.btnDelete {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: .3rem;
+    transition: .3s;
+    width: 100%;
+    justify-content: center;
+}
+
+.btnUpdate p,
+.btnTransfer p {
+    margin-left: .4rem;
+}
+
+.btnUpdate{
+    color: #00E676;
+    background-color: black !important;
+}
+
+.btnUpdate:hover {
+    color: #000;
+    background-color: #00E676  !important;
+}
+
+
+.btnTransfer {
+    color: #1e88e5;
+    background-color: black !important;
+}
+
+.btnTransfer:hover {
+    color: #000;
+    background-color: #1e88e5  !important;
+}
+
+.btnDelete {
+    color: red;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    background-color: black !important;
+}
+
+.btnDelete:hover {
+    color: #000;
+    background-color: red  !important;
+}

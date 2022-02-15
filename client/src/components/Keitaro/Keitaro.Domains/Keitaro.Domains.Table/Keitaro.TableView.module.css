@@ -1,0 +1,72 @@
+.tableContainer {
+    width: 100%;
+}
+
+.tableHeader {
+    display: grid;
+    grid-template-columns: 100px 100px 1fr 1fr 100px 100px  100px ;
+    color: white;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #1e88e563;
+    margin-top: 2rem;
+    padding: .4rem .4rem 1rem .4rem;
+    font-size: .9rem;
+}
+
+
+.tableRow {
+    padding: .4rem;
+    display: grid;
+    grid-template-columns: 100px 100px 1fr 1fr 100px 100px 100px ;
+    color: white;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.12);
+    font-size: .9rem;
+}
+
+.buttonCont {
+    width: 120px;
+    text-align: center;
+}
+
+.buttonCamp {
+    font-size: .8rem;
+}
+
+
+.success {
+    color: #00E676;
+}
+
+.error {
+    color: #bd0106;
+}
+
+.limited {
+    color: #ce7816;
+}
+
+.tableBtn {
+    background-color: transparent !important;
+    border: 1px solid #1e88e5;
+    padding: .2rem .4rem;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.tableBtn:hover {
+    background-color: #1e88e5 !important;
+    color: #333 !important;
+}
+
+.tableBtnCheck {
+    background-color: transparent !important;
+    border: 1px solid #00E676;
+    padding: .2rem .4rem;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.tableBtnCheck:hover {
+    background-color: #00E676 !important;
+    color: #333 !important;
+}

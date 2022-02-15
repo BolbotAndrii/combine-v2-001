@@ -1,0 +1,15 @@
+.form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fieldsBody >  div {
+    margin-bottom: 2rem !important;
+}
+
+.header {
+    color: #fff;
+    margin-bottom: 1rem;
+}

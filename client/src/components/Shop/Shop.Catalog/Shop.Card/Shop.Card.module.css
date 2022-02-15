@@ -1,0 +1,159 @@
+.container {
+    padding: 1rem 0rem 0rem 0rem ;
+    background-color: rgb(24, 24, 24);
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px 2px rgba(26, 26, 26, 0.2);
+    transition: .3s;
+}
+
+.container:hover {
+    transition: .3s;
+    /*animation-name: gayRGB;*/
+    /*animation-duration: 6s;*/
+    /*animation-iteration-count: infinite;*/
+    box-shadow: 0px 0px 8px 5px rgb(96, 95, 95);
+}
+
+@keyframes gayRGB {
+    0% {
+        box-shadow: 0px 0px 8px 6px rgba(18, 2, 255, 0.83);
+    }
+    10% {
+        box-shadow: 0px 0px 8px 6px rgba(0, 252, 126, 0.83);
+    }
+    20% {
+        box-shadow: 0px 0px 8px 6px rgba(18, 255, 0, 0.83);
+    }
+    30% {
+        box-shadow: 0px 0px 8px 6px rgba(255, 204, 2, 0.83);
+    }
+    40% {
+        box-shadow: 0px 0px 8px 6px rgba(248, 66, 0, 0.83);
+    }
+    50% {
+        box-shadow: 0px 0px 8px 6px rgba(222, 6, 6, 0.83);
+    }
+    60% {
+        box-shadow: 0px 0px 8px 6px rgba(255, 204, 2, 0.83);
+    }
+    70% {
+        box-shadow: 0px 0px 8px 6px rgba(18, 255, 0, 0.83);
+    }
+    80% {
+        box-shadow: 0px 0px 8px 6px rgba(0, 252, 126, 0.83);
+    }
+    90% {
+        box-shadow: 0px 0px 8px 6px rgba(2, 255, 247, 0.83);
+    }
+    100% {
+        box-shadow: 0px 0px 8px 6px rgba(2, 103, 255, 0.83);
+    }
+}
+
+.container::after {
+    content: 'Eclipse';
+    position: absolute;
+    top: 25%;
+    left: -13%;
+    font-size: 6rem;
+    font-weight: 800;
+    font-style: italic;
+    transform: rotate(-50deg);
+    color: rgba(58, 58, 58, 0.2);
+}
+
+.imgContainer {
+    height: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.productName {
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    margin: 2rem auto;
+    backdrop-filter: blur(5px);
+    width: 80%;
+    padding: .4rem 0rem;
+}
+
+.priceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+
+.priceName {
+    color: #ffffff;
+}
+
+.price {
+    color: #0d72f3;
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.addToCard {
+    width: 100%;
+    height: 42px;
+    border: none;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff8e1;
+    transition: .3s;
+    background-color: #000000;
+    border-left: 1px solid #262626;
+}
+
+.addToCard:hover {
+    background-color: #1e88e5 !important;
+    color: #000;
+}
+
+.addToCard p {
+    margin-right: 1rem;
+}
+
+.round {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -90px;
+    right: -100px;
+    background-color: rgba(17, 17, 17, 0.69);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.roundTwo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 140px;
+    left: -120px;
+    background-color: rgba(5, 5, 5, 0.56);
+    border-radius: 50%;
+    z-index: 1;
+}

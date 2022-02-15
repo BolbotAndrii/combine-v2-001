@@ -1,0 +1,14 @@
+.breadcrumbs {
+	display: flex;
+	align-items: center;
+}
+
+.breadcrumbs a {
+	display: flex;
+	align-items: center;
+}
+
+.breadcrumbs a span {
+	display: block;
+	height: 100%;
+}

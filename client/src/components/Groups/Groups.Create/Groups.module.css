@@ -1,0 +1,46 @@
+.container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding: 0rem 0rem 3rem 0rem;
+}
+
+.formContainer {
+	padding: 1rem 0rem 3rem 0rem;
+	display: block;
+}
+
+.sendBtn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sendBtn i {
+	margin-left: 1rem;
+}
+
+.formContHeader {
+	margin-bottom: 2rem;
+}
+
+
+.permissionsContainer,
+.permCont {
+	display: flex;
+}
+
+
+.permCont p {
+	margin-right: 1rem;
+}
+
+.premHeader {
+	color: white;
+	width: 15rem;
+}
+
+

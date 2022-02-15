@@ -1,0 +1,66 @@
+.tableRow {
+    padding: .4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 100px 100px;
+    color: white;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.12);
+    font-size: .9rem;
+    align-items: center;
+}
+
+.tableRow span {
+    text-align: center;
+}
+
+.tableRow span > img {
+    margin:  0 auto;
+}
+
+.productImg img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.tableRow span:first-child {
+    text-align: left;
+}
+
+.tableBtn {
+    background-color: transparent !important;
+    padding: .2rem .4rem;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+
+.buttonCont {
+    width: 120px;
+    text-align: center;
+}
+
+.buttonCamp {
+    font-size: .8rem;
+}
+
+
+.success {
+    color: #00E676;
+}
+
+.error {
+    color: #bd0106;
+}
+
+.limited {
+    color: #ce7816;
+}
+
+
+
+.tableBtnCheck {
+    background-color: transparent !important;
+    padding: .2rem .4rem;
+    border-radius: 4px;
+    transition: .2s;
+}

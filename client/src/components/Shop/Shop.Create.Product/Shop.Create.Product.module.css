@@ -1,0 +1,13 @@
+.btnCreate {
+    padding: 0.4rem 1rem;
+    margin-top: 1rem;
+    color: #1e88e5;
+    border: 1px solid #1e88e5;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+.btnCreate:hover {
+    background-color: #1e88e5;
+    color: #000;
+}

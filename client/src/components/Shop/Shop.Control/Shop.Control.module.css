@@ -1,0 +1,66 @@
+.controlCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171717;
+
+    position: sticky;
+    top: -32px;
+    z-index: 1000;
+    padding: 1rem 2rem;
+}
+
+.basketCont {
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+.basketCont span {
+    color: #000000;
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+}
+
+.coinsCont {
+    display: flex;
+    align-items: center;
+}
+
+.coinsCont i {
+    margin-right: 1rem;
+}
+
+.coinsCont p {
+    font-size: 1.6rem;
+}
+
+.coinsCont p {
+    color: #ffffff;
+}
+
+.rightControl {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.order span{
+    margin-left: 1rem;
+}

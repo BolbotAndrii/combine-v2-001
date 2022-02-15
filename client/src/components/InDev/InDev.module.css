@@ -1,0 +1,80 @@
+
+.inDevContainer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.glitchContainer {
+    font-size: 8rem;
+}
+
+.glitchContainer p {
+    text-shadow: 0.26rem 0 0 rgb(255 0 0 / 50%),
+    -0.075rem -0.3rem 0 rgb(0 255 0 / 50%),
+    0.054rem 0.3rem 0 rgb(0 0 255 / 50%);
+    animation: glitch 500ms infinite;
+    position: relative;
+}
+
+.spanOne,
+.spanTwo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.spanOne {
+    animation: glitch 575ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 0 55%);
+    transform: translate(-0.2rem, -0.2rem);
+}
+
+.spanTwo {
+    animation: glitch 325ms infinite;
+    clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+    transform: translate(0.2rem, 0.2rem);
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 0.26rem 0 0 rgb(255 0 0 / 50%),
+        -0.15rem -0.26rem 0 rgb(0 255 0 / 50%),
+        -0.15rem 0.2rem 0 rgb(0 0 255 / 50%);
+    }
+    14% {
+        text-shadow: 0.16rem -0.025rem 0 rgb(255 0 0 / 50%),
+        -0.075rem -0.2rem 0 rgb(0 255 0 / 50%),
+        -0.054rem 0.2rem 0 rgb(0 0 255 / 50%);
+    }
+    15% {
+        text-shadow: -0.16rem -0.025rem 0 rgb(255 0 0 / 50%),
+        0.075rem 0.16rem 0 rgb(0 255 0 / 50%),
+        -0.1rem -0.1rem 0 rgb(0 0 255 / 50%);
+    }
+    49% {
+        text-shadow: -0.16rem -0.1rem 0 rgb(255 0 0 / 50%),
+        0.075rem 0.14rem 0 rgb(0 255 0 / 50%),
+        -0.1rem -0.1rem 0 rgb(0 0 255 / 50%);
+    }
+    50% {
+        text-shadow: 0.1rem 0 0 rgb(255 0 0 / 50%),
+        0.075rem 0rem 0 rgb(0 255 0 / 50%),
+        0rem -0.1rem 0 rgb(0 0 255 / 50%);
+    }
+    99% {
+        text-shadow: 0.1rem 0 0 rgb(255 0 0 / 50%),
+        0.075rem 0rem 0 rgb(0 255 0 / 50%),
+        0rem -0.1rem 0 rgb(0 0 255 / 50%);
+    }
+    100% {
+        text-shadow: -0.075rem 0 0 rgb(255 0 0 / 50%),
+        -0.075rem -0.075rem 0 rgb(0 255 0 / 50%),
+        -0.075rem -0.15rem 0 rgb(0 0 255 / 50%);
+    }
+
+}

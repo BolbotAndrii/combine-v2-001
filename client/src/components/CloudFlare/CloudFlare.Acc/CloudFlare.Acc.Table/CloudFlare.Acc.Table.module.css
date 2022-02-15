@@ -1,0 +1,32 @@
+.tableContainer {
+    width: 100%;
+}
+
+.tableHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px 100px;
+    color: white;
+    border-bottom: 1px solid #1e88e563;
+    padding: .4rem .4rem 1rem .4rem;
+    font-size: .9rem;
+}
+
+
+.tableRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px 100px;
+    color: white;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.12);
+    font-size: .9rem;
+    padding: .8rem 0rem;
+}
+
+.tableBtn {
+    background-color: transparent !important;
+}
+
+
+.btnHeader {
+    text-align: center;
+}
+

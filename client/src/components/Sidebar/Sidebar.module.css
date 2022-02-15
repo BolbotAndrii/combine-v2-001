@@ -1,0 +1,91 @@
+.logo {
+	width: 30px;
+}
+
+.sidebar {
+	background-color: #171717;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	grid-area: s;
+}
+
+.userInfo {
+	border-top: 1px solid rgba(112, 112, 112, 0.63);
+	padding: 1rem;
+}
+
+.user,
+.userInfo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.userInfo p,
+.userInfo a {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: .8rem;
+}
+
+.userInfo p {
+	margin-left: 1rem;
+}
+
+.sidebarMenu {
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	padding: 1rem;
+	height: 100%;
+}
+
+.sidebarMenu a {
+	color: #fff;
+	padding: 1rem 0rem;
+
+	border-bottom: 1px solid rgba(112, 112, 112, 0.12);
+}
+
+.sidebarMenu a:hover {
+	color: #1e88e5;
+}
+
+.sidebarMenu > a.active {
+	color: #1e88e5;
+}
+
+.sideHeader {
+	display: flex;
+	align-items: center;
+	padding: .5rem 1rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(112, 112, 112, 0.63);
+}
+
+.sideHeader a {
+	display: flex;
+	align-items: center;
+}
+
+.sideHeader p {
+	margin-left: 1rem;
+	color: #fff;
+	font-size: 2rem;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.link i {
+	margin-right: 1rem;
+}
+
+.btnLogout {
+	background-color: transparent;
+	color: #bd0106;
+}

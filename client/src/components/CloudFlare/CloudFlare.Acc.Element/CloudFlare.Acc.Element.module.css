@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: #171717;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    color: white;
+}
+
+.cardBtn {
+    color: #2196F3;
+    background-color: transparent;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+
+.inputContainer input {
+    width: 100% !important;
+    margin: 0 !important;
+    height: 2rem !important;
+}
+
+
+.fName {
+    width: 6rem;
+}
+
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.domName {
+    font-size: 1rem;
+}
+
+.statusActive {
+    color: #00E676;
+}
+
+.statusPend {
+    color: #bd0106;
+}

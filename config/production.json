@@ -1,0 +1,5 @@
+{
+  "port": 80,
+  "jwtSecret": "kfnaefomgpoarghiai7rgyh+aihfapoe",
+  "mongoUri": "mongodb+srv://root:BViluyvhive7y0e9vjlzdf@cluster0.mv8s0.mongodb.net/combain?retryWrites=true&w=majority"
+}

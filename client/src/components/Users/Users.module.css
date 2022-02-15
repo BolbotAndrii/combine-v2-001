@@ -1,0 +1,49 @@
+.container {
+	width: 100%;
+	height: calc(100% - 80px);
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.formAdduser {
+	width: 50%;
+}
+
+.sendBtn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sendBtn i {
+	margin-left: .6rem;
+}
+
+.userTable {
+	color: #fff;
+}
+
+.tableAva {
+	width: 30px;
+	height: 30px;
+}
+
+.nameBlock {
+	display: flex;
+	align-items: center;
+}
+
+.nameBlock div:first-child {
+	margin-right: 1rem;
+}
+
+.tableBtn {
+	background-color: transparent !important;
+}
+
+.miniText {
+	color: #8a8a8a;
+	font-size: .8rem;
+}

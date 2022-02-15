@@ -1,0 +1,45 @@
+.AddWBtn {
+    padding: .4rem 1rem;
+    margin-top: 1rem;
+    color: #1e88e5;
+    border: 1px solid #1e88e5;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+.AddWBtn:hover {
+    background-color: #1e88e5;
+    color: #000;
+}
+
+.walletsTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.walletsSumm {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.walletsSumm {
+    color: #fff8e1;
+    font-size: 2rem;
+}
+
+.walletsSumm p:first-child span {
+    color: #f36d00;
+    font-size: 2.8rem;
+}
+
+.walletsSumm p:last-child,
+.walletsSumm p:first-child {
+    margin-left: 2rem;
+}
+
+.walletsSumm p:last-child span {
+    color: #46d70d;
+    font-size: 2.8rem;
+}

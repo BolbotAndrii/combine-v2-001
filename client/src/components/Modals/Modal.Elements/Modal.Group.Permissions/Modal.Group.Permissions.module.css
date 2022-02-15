@@ -1,0 +1,32 @@
+.permRow {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: #fff;
+    padding: 1rem;
+}
+
+.permRow div {
+    width: 100%;
+    display: flex;
+}
+
+.permRow div span,
+.permRow div i {
+    margin-left: .4rem;
+}
+
+.permHeader {
+    color: #fff;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #333;
+}
+
+.pageName::first-letter {
+    text-transform: uppercase;
+}
+
+.gName {
+    color: #1e88e5;
+}

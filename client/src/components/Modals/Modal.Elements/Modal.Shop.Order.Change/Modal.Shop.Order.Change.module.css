@@ -1,0 +1,96 @@
+.bodyContainer {
+    padding: 2rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.data {
+    padding: 0rem 2rem 0rem 2rem;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.controlPanel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controlPanel button {
+    width: 50%;
+    height: 42px;
+    color: #fff8e1;
+    transition: .2s;
+}
+
+.controlPanel button:first-child {
+    background-color: #105085;
+}
+
+.controlPanel button:last-child {
+    background-color: #790104;
+}
+
+.controlPanel button:first-child:hover {
+    background-color: #062c4d;
+}
+
+.controlPanel button:last-child:hover {
+    background-color: #490305;
+}
+
+.orderDataElement {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.orderDataElement p {
+    margin-right: 1rem;
+}
+
+.bodyContainer h4 {
+    color: white;
+    padding: 0rem 2rem 0rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.productsHeader {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bodyContainer h5 {
+    color: #ffffff;
+    margin: 2rem 0rem;
+}
+
+.productsHeader {
+    color: #ffffff;
+    border-bottom: 1px solid #333333;
+    padding-bottom: .2rem;
+    margin-bottom: .4rem;
+}
+
+.productsHeader div {
+    padding: .4rem;
+}
+
+.orderDataTable {
+    margin-bottom: 2rem;
+}
+
+
+.data::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.data::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.data::-webkit-scrollbar-thumb {
+    background-color: #2196F3;
+}
